@@ -1,0 +1,96 @@
+#left-side{
+    width: 310px;
+    height: 1020px;
+    background: #fff;
+    float: left;
+    position: fixed;
+}
+#right-side{
+    width: calc(100% - 310px);
+    margin-left: 310px;
+    height: 1020px;
+}
+#parent{
+    display: flex;
+    gap: 1.874rem;
+    padding-right: 30px;
+    position: absolute;
+    top: 19px;
+    left: 30px;
+    max-width: 1000px;
+}
+.child{
+    width: 360px;
+    height: 127px;
+    border-radius: 10px;
+    background: #fff;
+}
+.active{
+    background: #45A9EA;
+}
+.card-title1{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding-top: 1.56em;
+    padding-left: 1.56em;
+}
+.card-title1 > h5{
+    font-size: 1em;
+    font-weight: normal;
+    color: #fff;
+}
+.card-title1 > h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+}
+.card-title{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding-top: 1.56em;
+    padding-left: 1.56em;
+}
+.card-title > h5{
+    font-size: 1em;
+    font-weight: normal;
+}
+.card-title > h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#wrapper__card{
+    display: flex;
+    gap: 1.875rem;
+    margin-top: 4.5rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+}
+#wrapper__card > div{
+    width: 750px;
+    height: 293px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.56rem;
+}
+#wrapper__card h3{
+    color: #0D0D0D;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-left: 5px;
+}
+#wrapper1 td{
+    width: 50%;    
+}
+#wrapper1 th,#wrapper1 td{
+    text-align: left;
+    padding: 5px;
+}
+#wrapper2 td{
+    width: 90%;  
+    padding: 5px; 
+}
+.completed{
+    color: #45A9EA;
+}

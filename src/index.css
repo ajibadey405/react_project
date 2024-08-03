@@ -1,0 +1,22 @@
+body{
+  background: #F0F0F0;    
+  font-family: "Poppins", sans-serif;
+}
+.wrapper{
+  max-width: 744px;
+  max-height: 775px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.container{
+  width: 519px;
+  height: 675px;
+  margin: auto;
+  padding: 50px 112px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

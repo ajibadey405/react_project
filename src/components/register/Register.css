@@ -1,0 +1,67 @@
+#register{
+    max-width: 744px;
+    max-height: 661px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+#register .container1{
+    padding: 50px 115px;
+}
+#register .register__text{
+    display: block;
+    color: #666666;
+    font-size: 1em;
+}
+#register input[type="email"]{
+    width: 518px;
+    height: 50px;
+    margin: auto;
+    display: block;
+    background: #f5f5f5;
+    border: transparent;
+    border-radius: 10px;
+}
+#register .first_input{
+    width: 247px;
+    height: 50px;
+}
+#register input[type="text"]{
+    width: 247px;
+    height: 50px;
+    background: #f5f5f5;
+    border: transparent;
+    border-radius: 10px;
+
+}
+#register .first-last-group{
+    display: flex;
+    gap: 1em;
+    margin-top: 1.56em;
+}
+#register .pass1 input[type="password"]{
+    background: #f5f5f5;
+    border: transparent;
+    border-radius: 10px;
+    width: 234px;
+    height: 50px;
+}
+#register .pass1{
+    background: #f5f5f5;
+    border: transparent;
+    border-radius: 10px;
+    width: 234px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 13px;
+}
+#register .margin-t{
+    margin-top: 1.56em;
+}
+#register .password-group{
+    display: flex;
+    gap: 1.5em;
+}

@@ -1,0 +1,45 @@
+#topnav{
+    height: 6.25em;
+    max-width: 120em;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3.125em;
+    padding-right: 3.125em;
+
+}
+.hamburger, .user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+/* .user{
+
+} */
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tid{
+    color: #999;
+}
+#bottomnav{
+    height: 6.25em;
+    max-width: 120em;
+    padding-left: 3.125em;
+    padding-right: 3.125em;
+    text-transform: uppercase;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+    font-weight: 700;
+    /* background-color: #fff; */
+    
+
+
+
+
+}

@@ -1,0 +1,96 @@
+.login__text{
+    color: #666666;    
+    margin-bottom: 5px;
+    display: block;
+}
+#login input[type="email"], #login input[type="password"] {
+    width: 518px;
+    height: 50px;
+    background: #f5f5f5;
+    border: transparent;
+    border-radius: 10px;
+}
+#login .password__group {
+    width: 506px;
+    height: 52px;
+    background: #f5f5f5;
+    border: transparent;
+    border-radius: 10px;
+    padding-right: 1em;
+}
+::placeholder{
+    color: #979797;
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    padding: 1em;
+}
+#login .password{
+    margin-top: 1.56em;
+    display: block;
+}
+#login .password__group{
+    display: flex;
+    align-items: center;
+}
+#login .checkbox-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+#login .remember{
+    color: #666666;
+}
+#login .forget{
+    color: #45A9EA;
+    font-weight: 500;
+    text-decoration: none;
+}
+button{
+    width: 519px;
+    height: 50px;
+    margin-top: 1.56em;
+    background:#45A9EA;
+    color: #fff;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+#login .continue{
+    font-size: 1.125em;
+    color: #666666;
+    margin-top: 1.375em;
+    text-align: center;
+    display: block;
+}
+#login .social-group{
+    display: flex;
+    justify-content: space-between;
+}
+#login .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 235px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0px 0px 6px .1px;
+    border-radius: 4px;
+    color: #666666;
+    margin-top: 1.56em;
+    cursor: pointer;
+}
+#login .new-member{
+    display: block;
+    text-align: center;
+    margin-top: 1.56em;
+    font-size: 1em;
+}
+#login .new-member a{
+    color: #45A9EA;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
