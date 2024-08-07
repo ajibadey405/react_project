@@ -15,7 +15,7 @@ const Topnav = () => {
                 <img src={user} alt="" class=''/>
                 <div class='label'>
                     <div>
-                        <label htmlFor="">kamrul</label>
+                        <label htmlFor="">Delta_user</label>
                     </div> 
                     <div>                    
                         <label htmlFor="" class='tid'>TID: 23545</label>

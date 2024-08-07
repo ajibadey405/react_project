@@ -14,9 +14,7 @@
     justify-content: center;
     gap: 9px;
 }
-/* .user{
 
-} */
 .label{
     display: flex;
     flex-direction: column;
@@ -36,10 +34,4 @@
     align-items: center;
     color: #1A1A1A;
     font-weight: 700;
-    /* background-color: #fff; */
-    
-
-
-
-
 }

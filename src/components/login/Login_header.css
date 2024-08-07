@@ -5,7 +5,7 @@
     display: block;
 }
 #login_header .login__title{
-   line-height: .7;
+   /* line-height: .7; */
    text-align: center;
 
 }

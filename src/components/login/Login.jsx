@@ -9,11 +9,11 @@ import face from '../../images/face.svg'
 const Login = () => {
   return (
     <div id="login">
-        <div className="wrapper">
+        <div class="wrapper">
         <div class="container">
             <Login_header title={'Please Login your account.'}/>
             <label for="email" class="login__text">Email</label>
-            <input type="email" placeholder="delta123@gmail.com" id="email"/>
+            <input type="email" placeholder="delta_user@gmail.com" id="email"/>
             <label for="password" class="login__text password">Password</label>
             <div class="password__group">
                 <input type="password" placeholder="*********" id="password"/>

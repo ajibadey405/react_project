@@ -8,7 +8,7 @@ const Register = () => {
         <div class="container1">
         <Login_header/>
             <label for="email" class="register__text">Email</label>
-            <input type="email" placeholder="deltaproperties@gmail.com" id="email"/>
+            <input type="email" placeholder="delta_user@gmail.com" id="email"/>
             <div class="first-last-group">
                 <div>
                 <label for="firstname" class="register__text">First name</label>

@@ -14,9 +14,6 @@
     flex-direction: column;
     gap: 30px;
     margin-top: 50px;
-
-    /* padding: 32px 28px 0px 19px; */
-
 }
 #menu li{
     padding-left: 85px;
