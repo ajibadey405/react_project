@@ -34,4 +34,12 @@
     align-items: center;
     color: #1A1A1A;
     font-weight: 700;
+    justify-content: space-between;
+    /* align-content: center; */
 }
+/* #bottomnav button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+} */

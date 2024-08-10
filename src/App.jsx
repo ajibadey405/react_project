@@ -10,6 +10,7 @@ import Home from './components/home/Home'
 import Nav from './components/nav/Nav'
 import Topnav from './components/topnav/Topnav'
 import Dashboard from './components/dashboard/Dashboard'
+import Property from './components/property/Property'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/register' element={<Register/>} />
           <Route path='/topnav' element={<Topnav/>} />
           <Route path='/dashboard' element={<Dashboard/>} />
+          <Route path='/property' element={<Property/>} />
         </Routes>
       </div>
       

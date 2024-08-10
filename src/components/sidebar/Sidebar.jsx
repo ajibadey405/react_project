@@ -11,7 +11,7 @@ const Sidebar = () => {
         </div>
         <div id='menu'>
             <ul > 
-                <li class='active'><Link to='/'>Dashboard</Link></li>
+                <li class='active'><Link to='/dashboard'>Dashboard</Link></li>
                 <li><Link to='/property'>Property</Link></li>
                 <li><Link to='/tenants'>Tenants</Link></li>
                 <li><Link to='/add_property'>Add Property</Link></li>

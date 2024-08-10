@@ -2,7 +2,15 @@ import React from 'react'
 import './Topnav.css'
 import hamburger from '../../images/hamburger.svg'
 import user from '../../images/user.svg'
-const Topnav = () => {
+
+const leasing = {
+    background: '#45A9EA',
+    color: '#fff',
+    padding: '10px 20px',
+    borderRadius: '10px',
+    textTransform: 'capitalize'
+}
+const Topnav = ({title}) => {
   return (
     <div id='topnav1'>
         <div id='topnav'>
@@ -24,7 +32,8 @@ const Topnav = () => {
             </div>         
         </div>
         <div id="bottomnav">
-            <label htmlFor="">dashboard</label>
+            <label htmlFor="">{!title?'dashboard':'property'}</label>
+            {!title?'':<label style={leasing}>Apply for leasing</label> }
         </div>
     </div>
   )
