@@ -11,6 +11,7 @@ import Nav from './components/nav/Nav'
 import Topnav from './components/topnav/Topnav'
 import Dashboard from './components/dashboard/Dashboard'
 import Property from './components/property/Property'
+import Property_details from './components/propertyDetails/Property_details'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/topnav' element={<Topnav/>} />
           <Route path='/dashboard' element={<Dashboard/>} />
           <Route path='/property' element={<Property/>} />
+          <Route path='/propertyDetails' element={<Property_details />} />
         </Routes>
       </div>
       
