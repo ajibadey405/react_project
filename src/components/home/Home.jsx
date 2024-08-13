@@ -129,7 +129,7 @@ const Home = () => {
               <div className="address">
                 <h4>Address</h4>
                 <p>A108 Adam Street</p>
-                <p>New York, NY 535022</p>
+                <p>Ilorin, Kwara State 535022</p>
                 <p></p>
               </div>
             </div>
@@ -155,7 +155,7 @@ const Home = () => {
               <div>
                 <h4>Opening Hours</h4>
                 <p>
-                  <strong>Mon-Sat:</strong> <span>11AM - 23PM</span>
+                  <strong>Mon-Sat:</strong> <span>8AM - 10PM</span>
                   <br />
                   <strong>Sunday:</strong> <span>Closed</span>
                 </p>
